@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>View Expenses - Expense Management</title>
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Your Expenses</h1>
+      <table id="expenseTable">
+        <thead>
+          <tr>
+            <th>Expense</th>
+            <th>Category</th>
+            <th>Amount (₹)</th>
+            <th>Date</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+      <a href="add-expense.html">Add another expense</a>
+      <a href="index.html" onclick="logout()">Logout</a>
+    </div>
+
+    <script src="scripts/main.js"></script>
+  </body>
+</html>
